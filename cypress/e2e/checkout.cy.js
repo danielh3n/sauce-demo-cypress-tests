@@ -2,7 +2,7 @@ describe('Checkout Tests', () => {
   beforeEach(() => {
     cy.login('standard_user', 'secret_sauce');
     cy.addToCart('Sauce Labs Backpack');
-    cy.visit('/cart.html');
+    cy.get('[data-test="shopping-cart-link"]').click();
     cy.get('[data-test="checkout"]').click();
   });
 
