@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "End-to-end automated tests for the Sauce Demo e-commerce app using Cypress, following best practices and full coverage of core flows.",
   "scripts": {
-    "test": "cypress run",
-    "cy:open": "cypress open",
+    "headless": "cypress run",
+    "open": "cypress open",
     "lint": "eslint . --ext .js"
   },
   "devDependencies": {
