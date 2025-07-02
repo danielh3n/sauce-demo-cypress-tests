@@ -15,13 +15,13 @@ End-to-end automated tests for the Sauce Demo e-commerce app using Cypress.
 git clone https://github.com/danielh3n/sauce-demo-cypress-tests.git
 cd sauce-demo-cypress-tests
 npm install
-npm test
+npm headless
 ```
 
 ## Open Cypress UI
 
 ```bash
-npm run cy:open
+npm run open
 ```
 
 ## Linting
